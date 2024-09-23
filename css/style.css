@@ -23,7 +23,7 @@
 
 .upper-header > * {
   background-color: rgb(244, 150, 109);
-  border: 2px dashed rgb(77, 206, 218);
+  border: 2px dashed rgb(0, 0, 0);
   padding: 1px 0;
   height: 83px;
 }
@@ -44,6 +44,7 @@ background-color: blue;
 
 padding: 61px 183px;
 }
+ 
 
 .hero-header > .container{
   background-color: blueviolet;
@@ -88,3 +89,27 @@ padding: 61px 183px;
 }
 
 /* # FOOTER */
+
+.upper-footer > .container{
+  display: flex;
+  gap: 0%;
+  border: 2PX dashed rgb(247, 241, 241);
+  background-color: black;
+
+}
+
+.upper-footer > .container >.blocco1-footer{
+  background-color: rgb(228, 165, 228);
+  height: 386px;
+  width: 174px;
+  border: 2px dashed black;
+}
+
+.upper-footer > .container >.blocco2-footer{
+  background-color: rgb(58, 145, 145);
+  height: 386px;
+  width: 561px;
+  border: 2px dashed white;
+  
+}
+
