@@ -21,7 +21,7 @@
 }
 
 
-.upper-header > * {
+.upper-header > .container {
   background-color: rgb(244, 150, 109);
   border: 2px dashed rgb(0, 0, 0);
   padding: 1px 0;
@@ -41,7 +41,6 @@
 
 .hero-header{
 background-color: blue;
-
 padding: 61px 183px;
 }
  
@@ -113,3 +112,28 @@ padding: 61px 183px;
   
 }
 
+.inferior-footer > .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(137, 226, 236);
+  height: 69px;
+  width: auto;
+  
+}
+
+.inferior-footer > .container > .footer-logo{
+  background-color: rgb(244, 150, 109);
+  border: 2px dashed rgb(0, 0, 0);
+  padding: 4px 0;
+  height: 30px;
+  width: 51px;
+}
+
+.inferior-footer > .container > .footer-bottone{
+  background-color: rgb(244, 150, 109);
+  border: 2px dashed rgb(0, 0, 0);
+  padding: 4px 0;
+  height: 30px;
+  width: 51px;
+}
